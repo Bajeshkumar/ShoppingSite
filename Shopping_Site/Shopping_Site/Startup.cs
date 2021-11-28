@@ -45,6 +45,13 @@ namespace Shopping_Site
             app.UseRouting();
 
             app.UseAuthorization();
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.Map("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("hello world");
+            //    });
+            //});
 
             app.UseEndpoints(endpoints =>
             {
