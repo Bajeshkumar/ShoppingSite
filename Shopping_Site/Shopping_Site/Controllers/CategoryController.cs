@@ -19,13 +19,15 @@ namespace Shopping_Site.Controllers
         {
             return View();
         }
-        public List<Category> GetAllCategories()
+        public ViewResult GetAllCategories()
         {
-            return _categoryRepository.GetAllCategory();
+            var data= _categoryRepository.GetAllCategory();
+            return View(data);
         }
-        public Category GetCategory(int id)
+        public ViewResult GetCategory(int id)
         {
-            return _categoryRepository.GetCategoryById(id);
+            var data= _categoryRepository.GetCategoryById(id);
+            return View(data);
         }
         public List<Category> SearchCategories(string type,string name)
         {

@@ -4,4 +4,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Controllers\GetCategory.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Controllers\GetCategory.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Controllers\GetCategory.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Controllers\GetCategory.cshtml" />
+  </ItemGroup>
+
 </Project>

@@ -24,12 +24,12 @@ namespace Shopping_Site.Repository
         {
             return new List<Category>()
             {
-                new Category(){Id=1,Type="Shirt",Name="Cloth"},
-                new Category(){Id=2,Type="Paint",Name="Electronic"},
-                new Category(){Id=3,Type="Shoes",Name="RedChiff"},
-                new Category(){Id=2,Type="Mobile",Name="Redmi"},
-                new Category(){Id=1,Type="Mobile",Name="I-phone"},
-                new Category(){Id=2,Type="Shoes",Name="woodLand"},
+                new Category(){Id=1,Type="Shirt",Name="Cloth",Description="this category is very good" ,CategoryType="Programming" ,Language="English",Pages=123},
+                new Category(){Id=2,Type="Paint",Name="Electronic",Description="this category is very good",CategoryType="Programming" ,Language="English",Pages=123},
+                new Category(){Id=3,Type="Shoes",Name="RedChiff",Description="this category is very good",CategoryType="Programming" ,Language="English",Pages=123},
+                new Category(){Id=2,Type="Mobile",Name="Redmi",Description="this category is very good",CategoryType="Programming" ,Language="English",Pages=123},
+                new Category(){Id=1,Type="Mobile",Name="I-phone",Description="this category is very good",CategoryType="Programming" ,Language="English",Pages=123},
+                new Category(){Id=2,Type="Shoes",Name="woodLand",Description="this category is very good",CategoryType="Programming" ,Language="English",Pages=123},
             };
         }
     }

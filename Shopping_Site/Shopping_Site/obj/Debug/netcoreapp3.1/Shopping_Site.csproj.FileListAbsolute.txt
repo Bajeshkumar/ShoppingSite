@@ -8,7 +8,6 @@ D:\Shopping_Site\Shopping_Site\Shopping_Site\bin\Debug\netcoreapp3.1\Shopping_Si
 D:\Shopping_Site\Shopping_Site\Shopping_Site\bin\Debug\netcoreapp3.1\Shopping_Site.pdb
 D:\Shopping_Site\Shopping_Site\Shopping_Site\bin\Debug\netcoreapp3.1\Shopping_Site.Views.dll
 D:\Shopping_Site\Shopping_Site\Shopping_Site\bin\Debug\netcoreapp3.1\Shopping_Site.Views.pdb
-D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.csproj.AssemblyReference.cache
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.GeneratedMSBuildEditorConfig.editorconfig
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.AssemblyInfoInputs.cache
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.AssemblyInfo.cs
@@ -36,3 +35,6 @@ D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Si
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.pdb
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.genruntimeconfig.cache
 D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.csproj.CopyComplete
+D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Razor\Views\Category\GetAllCategories.cshtml.g.cs
+D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Razor\Views\Category\GetCategory.cshtml.g.cs
+D:\Shopping_Site\Shopping_Site\Shopping_Site\obj\Debug\netcoreapp3.1\Shopping_Site.csproj.AssemblyReference.cache
