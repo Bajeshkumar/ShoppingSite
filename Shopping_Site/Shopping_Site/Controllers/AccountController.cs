@@ -41,5 +41,34 @@ namespace Shopping_Site.Controllers
             }
             return View(signupusermodel);
         }
+        [Route("signin")]
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+        [Route("signin")]
+        [HttpPost]
+        public async Task<IActionResult> SignIn(SignInModel signInModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _accountRepo.PasswordSignInAsync(signInModel);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("GetAllCategories", "Category");
+                }
+                ModelState.AddModelError("", "Invalid credentials");
+            }
+            return View(signInModel);
+        }
+        
+        //public async Task<ActionResult> Logout()
+        //{
+        //    await _accountRepo.signoutAsync();
+        //    return RedirectToAction("GetAllCategories");
+
+        //}
+
     }
 }

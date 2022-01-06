@@ -1,4 +1,4 @@
-﻿@inject Microsoft.AspNetCore.Identity.SignInManager<ApplicationUser> _signInManager
+﻿@*@inject Microsoft.AspNetCore.Identity.SignInManager<ApplicationUser> _signInManager
 @if (_signInManager.IsSignedIn(User))
 {
     <li class="nav-item dropdown">
@@ -14,6 +14,6 @@ else
         <a class="btn btn-outline-primary" asp-controller="Account" asp-action="SignIn" asp-route-returnUrl="@Context.Request.Path">Login</a>
         <a class="btn btn-outline-primary" asp-controller="Account" asp-action="Signup">Register</a>
     </li>
-}
+}*@
 
 

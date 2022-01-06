@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Shopping_Site.Models;
 using Shopping_Site.Repository;
 using System;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Shopping_Site.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly CategoryRepository _categoryRepository = null;
